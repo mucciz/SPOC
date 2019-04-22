@@ -1,0 +1,85 @@
+/** {
+	padding: 0;
+	margin: 0;
+}*/
+
+body {
+	background-color: #eeeeee;
+	/* 	background-image: url('https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg');*/
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+
+.banner {
+	background-color: #eeeeee;
+	opacity: 0.5;
+	text-align: center;
+	height: 500px;
+	/*border-bottom: 1px solid black;*/
+}
+
+hr {
+	width: 10%;
+	margin-top: 67px;
+}
+
+.banner img {
+	height: 300px;
+	width: 300px;
+	/*position: top center;*/
+}
+
+#banner {
+	margin-top: 50px;
+	font-size: 30px;
+	width: 100%;
+	font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+
+.about {
+	height: 200px;
+	text-align: center;
+	/*border: 1px solid black;*/
+	margin-top: 30px;
+}
+
+#about {
+	padding-bottom: 10px;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	/*border: 1px solid black;*/
+	margin-bottom: 50px;
+}
+
+.section div img {
+	height: 80px;
+	width: 80px;
+}
+
+.section div {
+	text-align: center;
+}
+
+.lessons, .schools, .code, .student-board {
+	width: 200px;
+	padding: 0 10px 0 10px;
+}
+
+.lessons>p, .schools>p, .code>p, .student-board>p {
+	text-align: left;
+	font-size: 0.8em;
+}
+
+.projectA>img, .projectB>img {
+	/*height: 600px;*/
+	width: 800px;
+}
+
+.projectA, .projectB {
+	text-align: center;
+	margin-top: 50px;
+}
